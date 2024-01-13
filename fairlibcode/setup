@@ -1,0 +1,4 @@
+pip install fairlib
+pip install torchvision
+pip install dotmap
+pip install numpy==1.21.6
