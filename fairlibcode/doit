@@ -1,0 +1,6 @@
+conda activate pristine
+cd $HOME/miniconda3
+#use of batch size seems to enable bert training?
+#python /home/user/miniconda3/envs/pristine/lib/python3.8/site-packages/fairlib/__main__.py  --dataset Bios_gender --emb_size 768 --num_classes 28 --encoder_architecture BERT --batch_size 256  --data_dir ./data/bios
+#BTEO hyp i THINK
+python /home/user/miniconda3/envs/pristine/lib/python3.8/site-packages/fairlib/__main__.py  --dataset Bios_gender --emb_size 768 --num_classes 28 --encoder_architecture BERT  --data_dir ./data/bios fairlib --BT Resampling --BTObj EO

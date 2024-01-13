@@ -1,0 +1,3 @@
+prepdata - may be needed
+mergedata take data downloaded, process it into the righ format and merge pkl files togather - designed to be llowmemory
+./doit - train
